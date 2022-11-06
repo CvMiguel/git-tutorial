@@ -1,0 +1,3 @@
+/home/rtos-sim/Desktop/FORK/git-tutorial/CMakeFiles/edit_cache.dir
+/home/rtos-sim/Desktop/FORK/git-tutorial/CMakeFiles/rebuild_cache.dir
+/home/rtos-sim/Desktop/FORK/git-tutorial/CMakeFiles/Compiled.dir
