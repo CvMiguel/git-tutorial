@@ -1,0 +1,2 @@
+/usr/bin/ar qc libESPL_LIB.a  CMakeFiles/ESPL_LIB.dir/lib/espl_lib.c.o
+/usr/bin/ranlib libESPL_LIB.a
