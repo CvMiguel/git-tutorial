@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/Compiled.dir/src/new_features.c.o  -o bin/Compiled 
