@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/state_machine.dir/src/main.c.o CMakeFiles/state_machine.dir/src/new_features.c.o CMakeFiles/state_machine.dir/src/my_states.c.o  -o /home/rtos-sim/Desktop/FORK/bin/state_machine libSTATES_LIB.a -lrt 

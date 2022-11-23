@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rtos-sim/Desktop/FORK/git-tutorial/lib/error.h
+
+/home/rtos-sim/Desktop/FORK/git-tutorial/lib/espl_lib.c
+math.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+/home/rtos-sim/Desktop/FORK/git-tutorial/lib/states.c
+error.h
+/home/rtos-sim/Desktop/FORK/git-tutorial/lib/error.h
+states.h
+/home/rtos-sim/Desktop/FORK/git-tutorial/lib/states.h
+stdlib.h
+-
+string.h
+-
+
+/home/rtos-sim/Desktop/FORK/git-tutorial/lib/states.h
+

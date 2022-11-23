@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSTATES_LIB.a  CMakeFiles/STATES_LIB.dir/lib/states.c.o CMakeFiles/STATES_LIB.dir/lib/espl_lib.c.o
+/usr/bin/ranlib libSTATES_LIB.a
