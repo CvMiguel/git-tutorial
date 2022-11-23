@@ -1,4 +1,4 @@
 /home/rtos-sim/Desktop/FORK/git-tutorial/CMakeFiles/edit_cache.dir
 /home/rtos-sim/Desktop/FORK/git-tutorial/CMakeFiles/rebuild_cache.dir
-/home/rtos-sim/Desktop/FORK/git-tutorial/CMakeFiles/ESPL_LIB.dir
-/home/rtos-sim/Desktop/FORK/git-tutorial/CMakeFiles/foo.dir
+/home/rtos-sim/Desktop/FORK/git-tutorial/CMakeFiles/STATES_LIB.dir
+/home/rtos-sim/Desktop/FORK/git-tutorial/CMakeFiles/state_machine.dir

@@ -60,76 +60,76 @@ CMAKE_SOURCE_DIR = /home/rtos-sim/Desktop/FORK/git-tutorial
 CMAKE_BINARY_DIR = /home/rtos-sim/Desktop/FORK/git-tutorial
 
 #=============================================================================
-# Target rules for target CMakeFiles/ESPL_LIB.dir
+# Target rules for target CMakeFiles/STATES_LIB.dir
 
 # All Build rule for target.
-CMakeFiles/ESPL_LIB.dir/all:
-	$(MAKE) -f CMakeFiles/ESPL_LIB.dir/build.make CMakeFiles/ESPL_LIB.dir/depend
-	$(MAKE) -f CMakeFiles/ESPL_LIB.dir/build.make CMakeFiles/ESPL_LIB.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rtos-sim/Desktop/FORK/git-tutorial/CMakeFiles --progress-num=1,2 "Built target ESPL_LIB"
-.PHONY : CMakeFiles/ESPL_LIB.dir/all
+CMakeFiles/STATES_LIB.dir/all:
+	$(MAKE) -f CMakeFiles/STATES_LIB.dir/build.make CMakeFiles/STATES_LIB.dir/depend
+	$(MAKE) -f CMakeFiles/STATES_LIB.dir/build.make CMakeFiles/STATES_LIB.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rtos-sim/Desktop/FORK/git-tutorial/CMakeFiles --progress-num=1,2,3 "Built target STATES_LIB"
+.PHONY : CMakeFiles/STATES_LIB.dir/all
 
 # Include target in all.
-all: CMakeFiles/ESPL_LIB.dir/all
+all: CMakeFiles/STATES_LIB.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ESPL_LIB.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rtos-sim/Desktop/FORK/git-tutorial/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ESPL_LIB.dir/all
+CMakeFiles/STATES_LIB.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rtos-sim/Desktop/FORK/git-tutorial/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/STATES_LIB.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rtos-sim/Desktop/FORK/git-tutorial/CMakeFiles 0
-.PHONY : CMakeFiles/ESPL_LIB.dir/rule
+.PHONY : CMakeFiles/STATES_LIB.dir/rule
 
 # Convenience name for target.
-ESPL_LIB: CMakeFiles/ESPL_LIB.dir/rule
+STATES_LIB: CMakeFiles/STATES_LIB.dir/rule
 
-.PHONY : ESPL_LIB
-
-# clean rule for target.
-CMakeFiles/ESPL_LIB.dir/clean:
-	$(MAKE) -f CMakeFiles/ESPL_LIB.dir/build.make CMakeFiles/ESPL_LIB.dir/clean
-.PHONY : CMakeFiles/ESPL_LIB.dir/clean
+.PHONY : STATES_LIB
 
 # clean rule for target.
-clean: CMakeFiles/ESPL_LIB.dir/clean
+CMakeFiles/STATES_LIB.dir/clean:
+	$(MAKE) -f CMakeFiles/STATES_LIB.dir/build.make CMakeFiles/STATES_LIB.dir/clean
+.PHONY : CMakeFiles/STATES_LIB.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/STATES_LIB.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/foo.dir
+# Target rules for target CMakeFiles/state_machine.dir
 
 # All Build rule for target.
-CMakeFiles/foo.dir/all: CMakeFiles/ESPL_LIB.dir/all
-	$(MAKE) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/depend
-	$(MAKE) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rtos-sim/Desktop/FORK/git-tutorial/CMakeFiles --progress-num=3,4 "Built target foo"
-.PHONY : CMakeFiles/foo.dir/all
+CMakeFiles/state_machine.dir/all: CMakeFiles/STATES_LIB.dir/all
+	$(MAKE) -f CMakeFiles/state_machine.dir/build.make CMakeFiles/state_machine.dir/depend
+	$(MAKE) -f CMakeFiles/state_machine.dir/build.make CMakeFiles/state_machine.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rtos-sim/Desktop/FORK/git-tutorial/CMakeFiles --progress-num=4,5,6,7 "Built target state_machine"
+.PHONY : CMakeFiles/state_machine.dir/all
 
 # Include target in all.
-all: CMakeFiles/foo.dir/all
+all: CMakeFiles/state_machine.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/foo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rtos-sim/Desktop/FORK/git-tutorial/CMakeFiles 4
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/foo.dir/all
+CMakeFiles/state_machine.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rtos-sim/Desktop/FORK/git-tutorial/CMakeFiles 7
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/state_machine.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rtos-sim/Desktop/FORK/git-tutorial/CMakeFiles 0
-.PHONY : CMakeFiles/foo.dir/rule
+.PHONY : CMakeFiles/state_machine.dir/rule
 
 # Convenience name for target.
-foo: CMakeFiles/foo.dir/rule
+state_machine: CMakeFiles/state_machine.dir/rule
 
-.PHONY : foo
-
-# clean rule for target.
-CMakeFiles/foo.dir/clean:
-	$(MAKE) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/clean
-.PHONY : CMakeFiles/foo.dir/clean
+.PHONY : state_machine
 
 # clean rule for target.
-clean: CMakeFiles/foo.dir/clean
+CMakeFiles/state_machine.dir/clean:
+	$(MAKE) -f CMakeFiles/state_machine.dir/build.make CMakeFiles/state_machine.dir/clean
+.PHONY : CMakeFiles/state_machine.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/state_machine.dir/clean
 
 .PHONY : clean
 
